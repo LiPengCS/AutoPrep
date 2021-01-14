@@ -1,0 +1,8 @@
+https://archive.ics.uci.edu/ml/datasets/Nomao
+
+Abstract: Nomao collects data about places (name, phone, localization...) from many sources. Deduplication consists in detecting what data refer to the same place. Instances in the dataset compare 2 spots
+
+Attribute Information:
+
+120 attributes: 89 continuous, 31 nominal (including the attributes 'label' and 'id').
+

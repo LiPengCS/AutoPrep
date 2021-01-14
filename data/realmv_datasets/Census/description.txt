@@ -1,0 +1,4 @@
+https://archive.ics.uci.edu/ml/datasets/Census+Income
+
+Abstract: Predict whether income exceeds $50K/yr based on census data. Also known as "Adult" dataset.
+

@@ -1,0 +1,4 @@
+{
+    "label": ">150k",
+    "drop_variables": ["Id", "PoolQC", "MiscFeature", "Alley", "FireplaceQu"]
+}

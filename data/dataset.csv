@@ -1,0 +1,11 @@
+dataset,# rows,# columns
+quake,2178,3
+USCensus,32561,14
+mozilla4,15545,5
+mfeat,2000,6
+houses,20640,8
+Spambase,4601,57
+Diabetic,1151,19
+BreastCancer,569,30
+Airline,10000,13
+EEG,14980,14
