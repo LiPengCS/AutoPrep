@@ -11,7 +11,6 @@ from experiment import *
 
 params = {
     "num_epochs": 10000,
-    "batch_size": 100000,
     "device": "cpu",
 }
 
