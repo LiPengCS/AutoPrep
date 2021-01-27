@@ -1,4 +1,0 @@
-{
-    "label": "Survived",
-    "drop_variables": ["PassengerId", "Name", "Cabin", "Ticket"]
-}
