@@ -8,12 +8,12 @@ def run_experiment(model, transformer, params, X_train, y_train, X_val, y_val, X
     best_res = None
     best_val_acc = float("-inf")
 
-    learning_rates = [1e-3]
+    learning_rates = [1e-4, 1e-3, 1e-2, 1e-1]
     weight_decays = [0]
 
     for lr in learning_rates:
         for wd in weight_decays:
-            print(lr, wd)
+            print("learning rate", lr, ", weight decay", wd)
 
             params["learning_rate"] = lr
             params["weight_decay"] = wd
