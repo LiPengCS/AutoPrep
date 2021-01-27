@@ -60,6 +60,8 @@ def load_df(file_path, dataset_info):
         for cat in categories:
             if cat in df.columns:
                 df[cat] = df[cat].astype(str).replace('nan', np.nan) 
+    if "drop_variables" in dataset_info.keys():
+        df = df.drop(columns=dataset_info["drop_variables"])
     return df
 
 def load_info(info_dir):
